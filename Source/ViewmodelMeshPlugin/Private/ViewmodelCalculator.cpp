@@ -2,6 +2,9 @@
 
 
 #include "ViewmodelCalculator.h"
+#include "GameFramework/PlayerController.h"
+#include "Engine/World.h"
+#include "Components/PrimitiveComponent.h"
 
 bool UViewmodelCalculator::CalculateViewmodel(const UPrimitiveComponent* Primitive, FMatrix& OutMatrix) const
 {
